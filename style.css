@@ -1,0 +1,142 @@
+.body{
+    text-align: center;
+       
+}
+
+
+.row{
+    padding-top: 7rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+
+.struct{
+
+    margin: 5rem 9rem 3rem;
+    
+}
+
+img{
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display';
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 95%)
+
+}
+
+P{
+    font-family: 'Lexend Deca';
+     padding-bottom: 50px;
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+
+h1, P, img{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 3rem;
+    text-align: left;
+    margin-bottom: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 3rem;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.luxury{
+    background-color:hsl(179, 100%, 13%);
+    padding: 3rem;
+    text-align: left;
+    margin-bottom: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+}
+
+
+
+button.btn.btn-light.btn-lg{
+    border-radius: 2.5rem;
+    margin-left: 4rem;
+    padding: 5% 15%;
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+
+button.btn.btn-lg.btn-light.orange{
+    color: hsl(31, 77%, 52%);
+}
+
+button.btn.btn-lg.btn-light.cyan{
+    color: hsl(184, 100%, 22%);
+}
+
+button.btn.btn-lg.btn-light.dark-cyan{
+    color: hsl(184, 100%, 22%);
+}
+
+button.btn.btn-lg.btn-light.orange:hover {
+    background-color: hsl(31, 77%, 52%);
+    color:white;
+}
+
+button.btn.btn-lg.btn-light.cyan:hover {
+    background-color: hsl(184, 100%, 22%);
+    color:white;
+}
+
+button.btn.btn-lg.btn-light.dark-cyan:hover {
+    background-color: hsl(179, 100%, 13%);
+    color:white;
+}
+
+
+.btn:hover
+{
+   background-color: hsla(179, 100%, 13%, 0); 
+   color:white;
+}
+
+    .attribution { font-size: 11px; text-align: center;font-weight: 500; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+        
+
+@media (max-width:991.5px)
+{
+    .sedan
+    {
+        border-top-right-radius:5px ;
+        border-bottom-left-radius: 0;
+    }
+    .luxury
+    {
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+    }
+}
+@media (max-width:376px)
+{
+    .struct{
+        margin: 3rem 1.5rem;
+    }
+}
